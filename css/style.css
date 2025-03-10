@@ -1,0 +1,226 @@
+body{
+    background-image: url(../img/fon1.jpg);
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;    
+}
+
+/*--------------------------menu for index.html------------------------------*/
+.bodyIndex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.menuBtnIndex {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.menuBtnIndex li {
+    margin: 10px 0;
+}
+.menuBtnIndex a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.menuBtnIndex a:hover {
+    background-color: blue;
+}
+
+/*--------------------------menu for table html------------------------------*/
+.menuName{
+    text-align:center
+}
+
+.menuBtn { 
+    display:block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color: rgb(187, 206, 153);
+}
+
+.menuBtn a {
+    margin: 0 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.menuBtn a:hover {
+    background-color: blue;
+}
+
+/*--------------------- Table 1-2 --------------------*/
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+td {
+    width: 33.33%;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+  }
+   
+/*--------------------- Table 1-2 classes --------------------*/
+.w-75 {
+    width: 75%;
+}
+
+.h-200p {
+    height: 200px;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-28 {
+    width: 28%;
+}
+
+
+/*--------------------- Table 3--------------------*/
+* {
+    box-sizing: border-box;
+}
+
+.table3 {
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.container {
+    text-align: center;
+    width: calc(100% - 20px);
+    margin-inline: auto;
+}
+
+.table3 td {
+    text-align: center;
+    border: 5px solid black;
+    background-color: white;
+}
+
+.table3 .colorYellow {
+    background-color: yellow;
+}
+
+.table3 .colorBlue {
+    background-color: blue;
+}
+
+.table3 .colorRed {
+    background-color: red;
+}
+
+.table3 .colorBlack {
+    background-color: black;
+}
+.table3 .p1112 {
+    width: 20%;
+    height: 10%;
+}
+
+.table3 .p1314{
+    width: 40%;
+    height: 10%;
+}
+
+.table3 .p1516 {
+
+    width: 35%;
+    height: 10%;
+}
+
+.table3 .p1727 {
+
+    width: 5%;
+    height: 10%;
+}
+.table3 .p21 {
+    width: 10%;
+    height: 25%;
+}
+
+.table3 .p3141 {
+    width: 10%;
+    height: 35%;
+}
+
+.table3 .p5161 {
+    width: 10%;
+    height: 30%;
+}
+
+.table3 .p4252 {
+    width: 25%;
+    height: 25%;
+}
+
+.table3 .p2526 {
+    width: 35%;
+    height: 25%;
+}
+
+.table3 .p3536 {
+    width: 12.5%;
+    height: 25%;
+}
+
+.table3 .p2232 {
+    width: 50%;
+    height: 50%;
+}
+
+.table3 .p4454 {
+    width: 25%;
+    height: 12.5%;
+}
+
+.table3 .p4546 {
+    width: 35%;
+    height: 12.5%;
+}
+
+.table3 .p5767 {
+    width: 5%;
+    height: 30%;
+}
+
+.table3 .p6263 {
+    width: 25%;
+    height: 17.5%;
+}
+
+.table3 .p5556 {
+    width: 35%;
+    height: 25%;
+}
+
+.table3 .p64 {
+    width: 25%;
+}
+
+.table3 .p7475 {
+    height: 5%;
+}

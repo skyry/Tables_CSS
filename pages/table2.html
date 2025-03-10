@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 2</title>
+</head>
+<body>
+ <div>
+    <menu class="menuBtn">
+        <li>    
+            <a href="../index.html"> Home Page </a>
+        </li>
+        <li>
+            <a href="./table1.html"> Table 1 </a>
+        </li> 
+        <li>
+            <a href="./table3.html"> Table 3 </a>
+        </li>      
+    </menu>
+ </div>
+ <div>
+    <table class="w-90">
+        <caption><h2>Table 2 parent</h2></caption>
+        <tr>
+            <td colspan="2">1-2</td>
+            <td class="w-60">3 the width cel = 60%</td>
+        </tr>
+        <tr>
+            <td class="w-28">4 <br> the width cel = 28%</td>
+            <td colspan="2" rowspan="2">
+                <table class="w-80">
+                    <caption>Table 2 child</caption>
+                    <tr>
+                        <td>1</td>
+                        <td rowspan="3">2-5-8 <br> the width all cels = 33.33%</td>
+                        <td class="h-200p"  rowspan="2">3-6 <br> the hight cel = 200px </td>
+                    </tr>
+                    <tr>
+                        <td class="h-200p" rowspan="2">4-7 <br> the hight cel = 200px </td>
+                    </tr>  
+                    <tr>
+                        <td>9</td>
+                    </tr> 
+                </table>
+            </td>    
+        </tr> 
+        <tr>
+            <td class="w-28">7 <br> the hight all cels = 50px</td>
+        </tr>       
+    </table>
+ </div>  
+</body>
+</html>
